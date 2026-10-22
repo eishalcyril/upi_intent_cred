@@ -13,7 +13,8 @@ A new Flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'upi_intent/Sources/upi_intent/**/*.swift'
+  s.resource_bundles = {'upi_intent_privacy' => ['upi_intent/Sources/upi_intent/PrivacyInfo.xcprivacy']}
   s.dependency 'Flutter'
   s.platform = :ios, '13.0'
 
