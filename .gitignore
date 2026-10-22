@@ -28,3 +28,6 @@ DerivedData/
 .DS_Store
 .idea/
 *.iml
+
+example/ios/.symlinks/
+example/ios/Flutter/Flutter.podspec
