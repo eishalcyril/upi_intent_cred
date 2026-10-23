@@ -1,6 +1,6 @@
 name: upi_intent_cred
 description: "A patched fork of upi_intent with iOS CRED/Google Pay detection and Swift Package Manager support. Drop-in replacement with identical APIs."
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/eishalcyril/upi_intent_cred
 repository: https://github.com/eishalcyril/upi_intent_cred
 issue_tracker: https://github.com/eishalcyril/upi_intent_cred/issues

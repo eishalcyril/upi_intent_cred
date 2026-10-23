@@ -3,15 +3,15 @@
 # Run `pod lib lint upi_intent.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'upi_intent'
-  s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.name             = 'upi_intent_cred'
+  s.version          = '1.0.2'
+  s.summary          = 'UPI payments plugin with iOS CRED/GPay fix and SPM support. Fork of upi_intent.'
   s.description      = <<-DESC
 A new Flutter plugin project.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/eishalcyril/upi_intent_cred'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Eishal Cyril' => 'eishalcyril@users.noreply.github.com' }
   s.source           = { :path => '.' }
   s.source_files = 'upi_intent/Sources/upi_intent/**/*.swift'
   s.resource_bundles = {'upi_intent_privacy' => ['upi_intent/Sources/upi_intent/PrivacyInfo.xcprivacy']}

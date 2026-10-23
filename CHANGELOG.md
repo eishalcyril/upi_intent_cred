@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Fix: renamed podspec to `upi_intent_cred.podspec` so CocoaPods resolves correctly when used as a pub.dev dependency
+
 ## 1.0.1
 
 * Fork of `upi_intent` 1.0.1 by Yash Dodani (MIT)
