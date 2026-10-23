@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:upi_intent/upi_intent.dart';
+import 'package:upi_intent_cred/upi_intent.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

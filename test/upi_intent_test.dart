@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:upi_intent/upi_intent.dart';
+import 'package:upi_intent_cred/upi_intent.dart';
 
 void main() {
   group('UpiValidator', () {
@@ -27,7 +27,10 @@ void main() {
     });
 
     test('converts phone to VPA', () {
-      expect(UpiValidator.phoneToVpa('9876543210', 'paytm'), '9876543210@paytm');
+      expect(
+        UpiValidator.phoneToVpa('9876543210', 'paytm'),
+        '9876543210@paytm',
+      );
     });
 
     test('extracts bank handle from VPA', () {
@@ -54,10 +57,7 @@ void main() {
 
     test('builds URL without optional fields', () {
       final url = UpiIntent.buildUpiUrl(
-        UpiPayment(
-          payeeVpa: 'shop@upi',
-          payeeName: 'Shop',
-        ),
+        UpiPayment(payeeVpa: 'shop@upi', payeeName: 'Shop'),
       );
       expect(url, contains('pa=shop@upi'));
       expect(url, isNot(contains('am=')));

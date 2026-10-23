@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:upi_intent/upi_intent_method_channel.dart';
+import 'package:upi_intent_cred/upi_intent_method_channel.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

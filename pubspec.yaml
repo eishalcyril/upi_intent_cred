@@ -1,7 +1,9 @@
-name: upi_intent
-description: "Launch UPI payment apps with a beautiful built-in app picker. Supports Android & iOS. NPCI spec compliant. The modern replacement for upi_pay."
+name: upi_intent_cred
+description: "A patched fork of upi_intent with iOS CRED/Google Pay detection and Swift Package Manager support. Drop-in replacement with identical APIs."
 version: 1.0.1
-homepage: https://pub.dev/packages/upi_intent
+homepage: https://github.com/eishalcyril/upi_intent_cred
+repository: https://github.com/eishalcyril/upi_intent_cred
+issue_tracker: https://github.com/eishalcyril/upi_intent_cred/issues
 
 topics:
   - upi
@@ -11,11 +13,11 @@ topics:
   - flutter
 
 screenshots:
-  - description: 'Built-in minimal app picker and Example App interface'
+  - description: "Built-in minimal app picker and Example App interface"
     path: screenshots/app_picker.png
 environment:
   sdk: ^3.10.1
-  flutter: '>=3.10.0'
+  flutter: ">=3.10.0"
 
 dependencies:
   flutter:
